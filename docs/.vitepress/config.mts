@@ -5,7 +5,6 @@ export default defineConfig({
   description: "ERPNext docs",
   base: "/erpnext-vitepress-docs/",
   cleanUrls: true,
-  mpa: true,
   ignoreDeadLinks: true,
   markdown: {
     html: false,
