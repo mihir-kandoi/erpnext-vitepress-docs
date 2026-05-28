@@ -1387,10 +1387,6 @@ export default defineConfig({
           link: "/erpnext/stock/",
           items: [
             {
-              text: "Introduction to Stock Module",
-              link: "/erpnext/stock/",
-            },
-            {
               text: "Warehouse",
               link: "/erpnext/warehouse",
             },
@@ -3184,10 +3180,6 @@ export default defineConfig({
           text: "Website",
           link: "/erpnext/website/",
           items: [
-            {
-              text: "Website Setup",
-              link: "/erpnext/website/",
-            },
             {
               text: "Website Theme",
               link: "/erpnext/website-theme",
