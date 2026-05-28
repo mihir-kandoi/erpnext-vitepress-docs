@@ -26,7 +26,7 @@
 
   .VPContent.has-sidebar,
   .VPNavBar.has-sidebar .content {
-    padding-right: 32px !important;
+    padding-right: 20px !important;
   }
 }
 
@@ -44,7 +44,7 @@
 
   .VPContent.has-sidebar,
   .VPNavBar.has-sidebar .content {
-    padding-right: 32px !important;
+    padding-right: 20px !important;
   }
 }
 
