@@ -26,7 +26,7 @@
 
   .VPContent.has-sidebar,
   .VPNavBar.has-sidebar .content {
-    padding-right: 48px !important;
+    padding-right: 32px !important;
   }
 }
 
@@ -44,7 +44,7 @@
 
   .VPContent.has-sidebar,
   .VPNavBar.has-sidebar .content {
-    padding-right: 48px !important;
+    padding-right: 32px !important;
   }
 }
 
@@ -65,7 +65,7 @@
 .VPDoc > .container > .content {
   padding-bottom: 16px !important;
   padding-left: 48px !important;
-  padding-right: 48px !important;
+  padding-right: 24px !important;
 }
 
 .VPDoc .content-container {
@@ -86,6 +86,7 @@
   .VPDoc .aside {
     flex: 0 0 248px !important;
     max-width: 248px !important;
+    padding-left: 24px !important;
     width: 248px !important;
   }
 }
