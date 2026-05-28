@@ -30,7 +30,7 @@ To access the Journal Entry list, go to:
 8. Note that, in the end, total debit and credit amounts should add up to be the same.
 9. Save and Submit.
 
-![Journal Entry](/files/journal-entry.png)
+![Journal Entry](/files/Journal-Entry.png)
 
 **Finance Book**: You can post this entry to a specific [Finance Book](/erpnext/finance-book). On leaving this field blank, this Journal Entry will show up in all Finance Books. This field will only be visible if 'Enable Finance Books' under the Fixed Asset Defaults section of the Company master is checked.
 
