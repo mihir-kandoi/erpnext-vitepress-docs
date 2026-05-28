@@ -64,7 +64,7 @@
 
 .VPDoc > .container > .content {
   padding-bottom: 16px !important;
-  padding-left: 48px !important;
+  padding-left: 24px !important;
   padding-right: 24px !important;
 }
 
@@ -81,6 +81,11 @@
   .VPDoc {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+
+  .VPDoc > .container > .content {
+    padding-left: 48px !important;
+    padding-right: 24px !important;
   }
 
   .VPDoc .aside {
