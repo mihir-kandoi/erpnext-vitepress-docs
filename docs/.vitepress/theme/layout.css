@@ -1,0 +1,103 @@
+@media (min-width: 960px) {
+  :root {
+    --vp-sidebar-width: 264px;
+  }
+
+  .VPSidebar {
+    padding-bottom: 12px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  .VPSidebar .group {
+    width: calc(var(--vp-sidebar-width) - 40px) !important;
+  }
+
+  .VPNavBar.has-sidebar .container > .title {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    width: var(--vp-sidebar-width) !important;
+  }
+
+  .VPNavBarTitle .title {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .VPContent.has-sidebar,
+  .VPNavBar.has-sidebar .content {
+    padding-right: 48px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .VPSidebar {
+    width: var(--vp-sidebar-width) !important;
+  }
+
+  .VPContent.has-sidebar,
+  .VPNavBar.has-sidebar .content,
+  .VPLocalNav.has-sidebar,
+  .VPNavBar.has-sidebar .divider {
+    padding-left: var(--vp-sidebar-width) !important;
+  }
+
+  .VPContent.has-sidebar,
+  .VPNavBar.has-sidebar .content {
+    padding-right: 48px !important;
+  }
+}
+
+.VPDoc .container {
+  align-items: flex-start !important;
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.VPDoc .content {
+  flex: 1 1 auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  width: auto !important;
+}
+
+.VPDoc > .container > .content {
+  padding-bottom: 16px !important;
+  padding-left: 48px !important;
+  padding-right: 48px !important;
+}
+
+.VPDoc .content-container {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.VPDocFooter {
+  margin-top: 24px !important;
+}
+
+@media (min-width: 960px) {
+  .VPDoc {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .VPDoc .aside {
+    flex: 0 0 248px !important;
+    max-width: 248px !important;
+    width: 248px !important;
+  }
+}
+
+.vp-doc table {
+  display: table !important;
+  width: 100% !important;
+}
+
+.DocSearch-Button-Key {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+}
