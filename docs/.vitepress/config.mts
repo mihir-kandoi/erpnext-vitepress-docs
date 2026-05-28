@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "ERPNext",
   description: "ERPNext docs",
+  base: "/erpnext-vitepress-docs/",
   cleanUrls: true,
   mpa: true,
   ignoreDeadLinks: true,
@@ -15,7 +16,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/png",
-        href: "/favicon.png",
+        href: "/erpnext-vitepress-docs/favicon.png",
       },
     ],
   ],
